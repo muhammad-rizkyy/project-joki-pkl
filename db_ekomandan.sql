@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Waktu pembuatan: 22 Feb 2024 pada 16.46
+-- Waktu pembuatan: 26 Feb 2024 pada 04.16
 -- Versi server: 10.4.18-MariaDB
 -- Versi PHP: 8.0.3
 
@@ -54,7 +54,27 @@ INSERT INTO `data_permohonan` (`id`, `tanggal`, `jenis`, `rencana`, `nama_lengka
 (8, '2024-01-05', '4', 'n', 'adit', 'rantau', 'margasari', '082367458976', 'parkiran', '3'),
 (9, '2024-02-10', '1', 'a', 'rizky', 'tapin', 'margasari', '082367549876', 'pasar', '1'),
 (10, '2024-01-27', '3', 'f', 'arifin', 'kota rantau', 'bypass', '0854123470', 'terminal', '3'),
-(11, '2024-01-26', '3', 'o', 'syamsul', 'a yani', 'pasar rantau', '0865431267', 'parkiran', '4');
+(11, '2024-01-26', '3', 'o', 'syamsul', 'a yani', 'pasar rantau', '0865431267', 'parkiran', '4'),
+(12, '2024-02-26', '1', 'j', 'Syarif', 'Banjarmasin', 'Kotabaru', '088989898989', 'Dermaga', '5'),
+(13, '2024-02-26', '1', 'j', 'Riko', 'Bandung', 'Banjarmasin', '088888888888', 'Dermaga', '5'),
+(14, '2024-02-26', '1', 'r', 'Riko', 'Surabaya', 'Banjarmasin', '087777777777', 'Hotel', '5'),
+(15, '2024-02-26', '3', 'k', 'Dadang', 'Banjarbaru', 'Kotabaru', '087777777777', 'Hotel', '4'),
+(16, '2024-02-26', '3', 'i', 'Riko', 'Banjarmasin', 'Banjarmasin', '088888888888', 'Jalan Tol', '4'),
+(17, '2024-02-26', '3', 'f', 'Syarif', 'Surabaya', 'Banjarmasin', '088989898989', 'Rumah sakit', '4'),
+(18, '2024-02-26', '3', 'm', 'Riko', 'Surabaya', 'Banjarmasin', '087777777777', 'Terminal', '4'),
+(19, '2024-02-26', '1', 'o', 'Amat', 'Bandung', 'Banjarmasin', '089999999999', 'Tempat Parkir', '3'),
+(20, '2024-02-26', '1', 'd', 'Dadang', 'Jakarta', 'Kotabaru', '089999999999', 'Hotel', '3'),
+(21, '2024-02-26', '3', 'r', 'Dani', 'Bandung', 'Banjarmasin', '087777777777', 'Hotel', '3'),
+(22, '2024-02-26', '3', 'j', 'Dani', 'Jakarta', 'Kotabaru', '089999999999', 'Dermaga', '3'),
+(23, '2024-02-26', '2', 'o', 'Riko', 'Martapura', 'Banjarmasin', '088888888888', 'Restaurant', '5'),
+(24, '2024-02-26', '1', 'c', 'Alif', 'Banjarbaru', 'Banjarmasin', '088989898989', 'gudang', '2'),
+(25, '2024-02-26', '3', 'r', 'Irfan', 'Kotabaru', 'Kotabaru', '088989898989', 'Hotel', '2'),
+(26, '2024-02-26', '3', 'e', 'Muhammad Rizky', 'Kotabaru', 'Kotabaru', '089999999999', 'Gedung Sekolah', '2'),
+(27, '2024-02-26', '2', 'h', 'Dadang', 'Jakarta', 'Kotabaru', '088888888888', 'Perumahan', '2'),
+(28, '2024-02-26', '1', 'a', 'Syarif', 'Surabaya', 'Banjarmasin', '088888888888', 'Minimarket', '1'),
+(29, '2024-02-26', '1', 'c', 'Muhammad Rizky', 'Bandung', 'Kotabaru', '084444444444', 'Ruko', '1'),
+(30, '2024-02-26', '3', 'p', 'Alif', 'Jakarta', 'Bandung', '085656565656', 'SPBU', '1'),
+(31, '2024-02-26', '1', 'd', 'Muhammad Rizky', 'Kotabaru', 'Kotabaru', '084444444444', 'Hotel', '1');
 
 -- --------------------------------------------------------
 
@@ -208,7 +228,7 @@ ALTER TABLE `user`
 -- AUTO_INCREMENT untuk tabel `data_permohonan`
 --
 ALTER TABLE `data_permohonan`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=12;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=32;
 
 --
 -- AUTO_INCREMENT untuk tabel `jenis_rencana`
